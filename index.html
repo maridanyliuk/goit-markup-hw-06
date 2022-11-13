@@ -380,7 +380,7 @@
                 <div class="subscribe-box">
                     <p class="subscribe-text">Підпишіться на розсилку</p>
                     <form action="" class="subscribe-form">
-                    <input type="text" name="subscribe-email" placeholder="E-mail" class="subscr">
+                    <input type="text" name="subscribe-email" placeholder="E-mail" class="subscr" required>
                     <button class="subscribe-button" type="submit">Підписатися
                 <svg class="telegram-icon" width="24px" height="24px">
                     <use href="./images/icons.svg#icon-icon-send-1"></use>
@@ -404,37 +404,37 @@
 <form action="" class="modal-form">
     <div class="input-box">
     <label for="user-name" class="modal-label">Ім'я</label>
-    <input type="text" name="user-name" placeholder="" id="user-name" class="modal-input"></input>
+    <input type="text" name="user-name" placeholder="Sam Smith" id="user-name" class="modal-input" required></input>
     <svg class="input-icon" width="18px" height="18px">
         <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
     </svg>
     </div>
     <div class="input-box">
         <label for="user-tel" class="modal-label">Телефон</label>
-        <input type="text" name="user-tel" placeholder="" id="user-tel" class="modal-input"></input>
+        <input type="text" name="user-tel" placeholder="+38 (068) 111-11-11" id="user-tel" class="modal-input" required></input>
         <svg class="input-icon" width="18px" height="18px">
             <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
         </svg>
     </div>
     <div class="input-box">
         <label for="user-email" class="modal-label">Пошта</label>
-        <input type="text" name="user-email" placeholder="" id="user-email" class="modal-input"></input>
+        <input type="text" name="user-email" placeholder="samsmith@gmail.com" id="user-email" class="modal-input" required></input>
         <svg class="input-icon" width="18px" height="18px">
             <use href="./images/icons.svg#icon-email-black-18dp-1-1"></use>
         </svg>
     </div>
-    <div class="input-box">
+    <div class="comment-box">
     <label for="user-comment" class="modal-label">Коментар</label>
      <textarea name="comment" id="user-comment"  class="modal-comment"></textarea>
     </div>
-    <div class="input-box checkbox-box">
+    <div class="checkbox-box">
         <label  class="checkbox-label">
             <input class="checkbox" type="checkbox" name="policy"  value="music" checked />
             <span class="checkbox-icon"></span>
             Погоджуюся з розсилкою та приймаю</label>
         <a href="" class="agreement ">Умови договору</a>
     </div>
-    <button class="modal-submit-btn" type="submit">Відправити</button>
+    <button class="modal-submit-btn" type="submit" >Відправити</button>
 </form>
 
 
